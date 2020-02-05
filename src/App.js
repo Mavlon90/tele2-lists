@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import TariffsList from './componets/TariffsList/TariffsList';
-import Tariff from './componets/Tariffs/Tariff'
 
 function App() {
   return (
