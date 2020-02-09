@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tele2-lists/static/css/main.074a5265.chunk.css",
+    "main.js": "/tele2-lists/static/js/main.c39bef00.chunk.js",
+    "main.js.map": "/tele2-lists/static/js/main.c39bef00.chunk.js.map",
+    "runtime-main.js": "/tele2-lists/static/js/runtime-main.844666ce.js",
+    "runtime-main.js.map": "/tele2-lists/static/js/runtime-main.844666ce.js.map",
+    "static/js/2.0839c24a.chunk.js": "/tele2-lists/static/js/2.0839c24a.chunk.js",
+    "static/js/2.0839c24a.chunk.js.map": "/tele2-lists/static/js/2.0839c24a.chunk.js.map",
+    "index.html": "/tele2-lists/index.html",
+    "precache-manifest.1136b9456e4ca19f2aec4368a4cd39d5.js": "/tele2-lists/precache-manifest.1136b9456e4ca19f2aec4368a4cd39d5.js",
+    "service-worker.js": "/tele2-lists/service-worker.js",
+    "static/css/main.074a5265.chunk.css.map": "/tele2-lists/static/css/main.074a5265.chunk.css.map",
+    "static/js/2.0839c24a.chunk.js.LICENSE.txt": "/tele2-lists/static/js/2.0839c24a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.844666ce.js",
+    "static/js/2.0839c24a.chunk.js",
+    "static/css/main.074a5265.chunk.css",
+    "static/js/main.c39bef00.chunk.js"
+  ]
+}
