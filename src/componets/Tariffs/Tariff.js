@@ -1,76 +1,76 @@
 import React from 'react'
 
-export default function Tariff( {props} ) {
+export default function Tariff( {tariff} ) {
     return (
         <div className="main">
             <ul className="main-block">
-                {props.hitsale &&
+                {tariff.hitsale &&
                     <div className="hitsale">
                         <div className="hit">
-                            {props.hit}
+                            {tariff.hit}
                         </div>
                         <div className="sale" >
-                            {props.sale}
+                            {tariff.sale}
                         </div>
                     </div>}
                 <li className="main-block-item-1">
-                    <div className="title" >{props.name}</div>
+                    <div className="title" >{tariff.name}</div>
                 </li>
                 <li className="main-block-item-2">
-                    {props.titleText}
+                    {tariff.titleText}
                     <div className="price">
-                        {props.price}
+                        {tariff.price}
                     </div>
                 </li>
                 <li className="main-block-item-3">
                     <div className="dollar">
-                        {props.chase}
+                        {tariff.chase}
                     </div>
                     <div className="month">
-                        {props.month}
+                        {tariff.month}
                     </div>
                 </li>
                 <li className="main-block-item-11"></li>
                 <li className="main-block-item-4">
                     <div className="trafic" >
-                        {props.trafic}
-                        {props.mb}
-                        {props.gb}
+                        {tariff.trafic}
+                        {tariff.mb}
+                        {tariff.gb}
                     </div>
                 </li>
                 <li className="main-block-item-5">
-                    {props.unlimitStatus && <div className="withoutlimit" >{props.unlimit}</div>}
+                    {tariff.unlimitStatus && <div className="withoutlimit" >{tariff.unlimit}</div>}
                 </li>
                 <li className="main-block-item-6">
                     <div className="social" >
-                        {props.socialStatus && props.social.map(o => <img className="imgSocial" src={o} alt="social-icon" />)}
+                        {tariff.socialStatus && tariff.social.map(o => <img className="imgSocial" src={o} alt="social-icon" />)}
                     </div>
-                    <h4>{props.internetOutSide}</h4>
+                    <h4>{tariff.internetOutSide}</h4>
                 </li>
                 <li className="main-block-item-7">
-                    {props.timeMinStatus &&
+                    {tariff.timeMinStatus &&
                         <div className="time" >
-                            {props.time}{" "}
-                            {props.min}
+                            {tariff.time}{" "}
+                            {tariff.min}
                         </div>
                     }
                 </li>
                 <li className="main-block-item-8">
-                    {props.messageCountAndSmS &&
+                    {tariff.messageCountAndSmS &&
                         <div className="messageCount" >
-                            {props.messageCount}{" "}
-                            {props.sms}
+                            {tariff.messageCount}{" "}
+                            {tariff.sms}
                         </div>
                     }
                 </li>
                 <li className="main-block-item-9">
                     <div className="butBtn">
-                        {props.buyButton}
+                        {tariff.buyButton}
                     </div>
                 </li>
                 <li className="main-block-item-10">
                     <div className="text" >
-                        {props.text}
+                        {tariff.text}
                     </div>
                 </li>  
             </ul>
